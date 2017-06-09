@@ -2,9 +2,7 @@
  * Created by ljunb on 2017/5/25.
  */
 import React from 'react'
-import {Animated, StyleSheet, View, Text, AppRegistry} from 'react-native'
-import {Provider} from 'mobx-react/native'
-import stores from './src/store'
+import {StyleSheet,AppRegistry} from 'react-native'
 import NetInfoDecorator from './src/common/NetInfoDecorator'
 import App from "./react_native/burqa/App";
 
@@ -40,25 +38,23 @@ export default class Root extends React.Component {
     //         })
     //     }
     // }
-
-    render() {
-        let positionY = this.state.promptPosition.interpolate({
-            inputRange: [0, 1],
-            outputRange: [-30, __IOS__ ? 20 : 0]
-        });
-        return (
-            <View style={{flex: 1}}>
-                {/*<Provider {...stores}>*/}
-                    {/*<App />*/}
-                {/*</Provider>*/}
-                {/*<Animated.View style={[styles.netInfoView, {top: positionY}]}>*/}
-                    {/*<Text style={styles.netInfoPrompt}>网络异常，请检查网络稍后重试~</Text>*/}
-                {/*</Animated.View>*/}
-
-
-            </View>
-        )
-    }
+    //
+    // render() {
+    //     let positionY = this.state.promptPosition.interpolate({
+    //         inputRange: [0, 1],
+    //         outputRange: [-30, __IOS__ ? 20 : 0]
+    //     });
+    //     return (
+    //         <View style={{flex: 1}}>
+    //             <Provider {...stores}>
+    //                 <App />
+    //             </Provider>
+    //             <Animated.View style={[styles.netInfoView, {top: positionY}]}>
+    //                 <Text style={styles.netInfoPrompt}>网络异常，请检查网络稍后重试~</Text>
+    //             </Animated.View>
+    //         </View>
+    //     )
+    // }
 }
 
 const styles = StyleSheet.create({
@@ -77,4 +73,4 @@ const styles = StyleSheet.create({
     }
 })
 
-AppRegistry.registerComponent('iShiWuPai', () => App)
+AppRegistry.registerComponent('iShiWuPai', () => App);
