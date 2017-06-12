@@ -5,5 +5,5 @@
 global.__IOS__ = false
 global.__ANDROID__ = true
 
-require('./src/common/GlobalContants')
-require('./iShiWuPai')
+require('./react_native/burqa/common/GlobalContants')
+require('./react_native/burqa/App')
