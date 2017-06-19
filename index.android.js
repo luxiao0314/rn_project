@@ -6,5 +6,4 @@ global.__IOS__ = false
 global.__ANDROID__ = true
 
 require('./react_native/burqa/common/GlobalContants');
-require('./react_native/burqa/App');
-require('./react_native/burqa/Root');
+require('./react_native/burqa/router/CommentRouter');
