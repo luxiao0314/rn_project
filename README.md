@@ -109,14 +109,15 @@
 ![image](https://github.com/luxiao0314/burqa/raw/burqa/screenshots/WX20170629-160727.png)
 
 ## Compilation
- ios:对应分支master,纯rn
-  git clone https://github.com/luxiao0314/rn_project.git
-  npm install
-  react-native run-ios
+ 
+* ios:对应分支master,纯rn
+*    git clone https://github.com/luxiao0314/rn_project.git
+*    npm install
+*    react-native run-ios
   
- react-native嵌套在native项目:
-  1,使用sourceTree下载 https://github.com/luxiao0314/burqa.git 
-  2,切换分支burqa即可,js代码是以bundle打包放在android assets目录下
+* react-native嵌套在native项目:
+*    1,使用sourceTree下载 https://github.com/luxiao0314/burqa.git 
+*    2,切换分支burqa即可,js代码是以bundle打包放在android assets目录下
  
 ## Download link
 https://fir.im/may4
