@@ -111,9 +111,9 @@
 ## Compilation
  
 * ios:对应分支master,纯rn
-*    git clone https://github.com/luxiao0314/rn_project.git
-*    npm install
-*    react-native run-ios
+*    1,git clone https://github.com/luxiao0314/rn_project.git
+*    2,npm install
+*    3,react-native run-ios
   
 * react-native嵌套在native项目:
 *    1,使用sourceTree下载 https://github.com/luxiao0314/burqa.git 
